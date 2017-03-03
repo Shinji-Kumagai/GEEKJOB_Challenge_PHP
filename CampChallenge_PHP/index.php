@@ -1,2 +1,5 @@
 <?php
-echo "Hello world.";
+$a = "groove";
+$b = "-";
+$c = "gear";
+echo $a . $b . $c;
