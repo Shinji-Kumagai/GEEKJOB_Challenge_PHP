@@ -1,2 +1,3 @@
 <?php
-echo "Hello world.";
+$name = "My name is Shinji Kumagai";
+echo $name;
