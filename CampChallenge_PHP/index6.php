@@ -1,4 +1,9 @@
 <?php
+// クエリは
+// 雑貨が"goods"
+// 生鮮食品が"foods"
+// その他が"others"
+// です。
 function n(){
     echo nl2br("\n");
 }
