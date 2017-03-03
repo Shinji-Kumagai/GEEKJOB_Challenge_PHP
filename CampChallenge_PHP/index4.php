@@ -1,10 +1,18 @@
 <?php
+function br(){
+    echo nl2br("\n");
+}
 $a = 10;
 $b = 3;
 const A = 100;
 
 echo $a + $b;
-$a = const A - $a;
-echo $a - const A;
+br();
+$a = A - $a;
+echo $a;
+br();
+echo $a -  A;
+br();
 echo $a * $b;
-echo const A / $a
+br();
+echo  A / $a;
