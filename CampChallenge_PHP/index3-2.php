@@ -7,3 +7,4 @@ function my_number($num) {
     }
 }
 my_number(-2);
+a
