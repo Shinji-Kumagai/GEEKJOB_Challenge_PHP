@@ -20,17 +20,35 @@ function mercurian() {
     $place = "Mercury";
     return array($id, $name, $birthday, $place);
 }
+
 $alien = alien();
 $martian = martian();
 $mercurian = mercurian();
+
+$people = array($alien, $martian, $mercurian);
+
+// var_dump($people);
+// for($i=0;$i<3;$i++) {
+//     for($j=0;$j<4;$j++) {
+//         $output = $people[$i][$j];
+//         echo $output."<br>";
+//     }
+// }
+
 function program($name) {
     foreach($name as $key => $value) {
         if (($key == 0) || ($key == 3)) {
             continue;
         }
-        echo "$key $value<br>";
+        elseif ($key == 1) {
+            echo "Name :" . $value."<br>";
+        }
+        elseif ($key == 2) {
+            echo "Birthday :" . $value."<br><br>";
+        }
+        // echo "$key $value<br>";
     }
 }
-program($alien);
-program($martian);
-program($mercurian);
+for($i=0;$i<3;$i++) {
+    program($people[$i]);
+}
