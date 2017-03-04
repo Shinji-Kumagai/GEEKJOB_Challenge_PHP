@@ -6,4 +6,4 @@ function my_number($num) {
         echo "奇数だべ";
     }
 }
-my_number(-2);
+my_number(-5);
