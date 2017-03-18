@@ -121,7 +121,6 @@
         $subject = $_POST['subject'];
         $name = $_POST['name'];
         $update_sql = "insert into information (day_period, subject, name) values ($day$period, '$subject', '$name') on duplicate key update day_period = $day$period, subject = '$subject', name = '$name' ";
-        var_dump($update_sql);
         echo "<br>";
         $dbh->query($update_sql);
     }
