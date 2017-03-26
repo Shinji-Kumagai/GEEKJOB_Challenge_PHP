@@ -2,8 +2,8 @@
 // PHPからのPDOを用いて実現してください。フォームからデータを挿入できる処理を構築してください。
 $db = 'Challenge_db';
 $dsn = 'mysql:host=localhost;dbname='.$db;
-$user = 'Shinji';
-$pass = 'mydatabase';
+$user = 'kuma';
+$pass = 'pass';
 
 $message = ' ';
 ?>

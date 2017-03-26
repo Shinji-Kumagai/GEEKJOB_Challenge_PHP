@@ -1,8 +1,8 @@
 <?php
 $db = 'Challenge_db';
 $dsn = 'mysql:host=localhost;dbname='.$db;
-$user = 'Shinji';
-$pass = 'mydatabase';
+$user = 'kuma';
+$pass = 'pass';
 
 $dbh = new PDO($dsn, $user, $pass,
 array(
